@@ -1,13 +1,10 @@
-import { Counter } from "./counter";
-import logger from "./logger/logger";
+import { server } from "./router/router";
 
 function main() {
-  const counter = new Counter(0);
-
-  logger.log(counter.up());
-  logger.log(counter.up());
-  logger.log(counter.up());
-  logger.log(counter.down());
+  server.listen(3000, (err, address) => {
+    if (err) console.error(err);
+    console.log(address);
+  });
 }
 
 main();
