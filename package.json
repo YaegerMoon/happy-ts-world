@@ -2,6 +2,7 @@
   "name": "happy-ts-world",
   "packageManager": "yarn@3.2.0",
   "description": "Make Happy World through TS",
+  "author": {"name": "Yaeger"},
   "license": "MIT",
   "version": "0.0.1",
   "main": "./src/main.ts",
