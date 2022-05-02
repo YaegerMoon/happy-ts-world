@@ -1,0 +1,14 @@
+{
+  "name": "happy-ts-world",
+  "packageManager": "yarn@3.2.0",
+  "description": "Make Happy World through TS",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "./src/main.ts",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "esbuild": "^0.14.38",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
